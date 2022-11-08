@@ -16,11 +16,8 @@ public class Commercant extends Humain {
 	}
 	public String prendreParole() {
 		return("Le commercant " + nom + " : " );
-		
 	}
-	public void parler(String texte) {
-		System.out.println(prendreParole() + "'" + texte + "'");
-	}
+	
 	
 	public void recevoir(int argent2) {
 		argent+=argent2;
