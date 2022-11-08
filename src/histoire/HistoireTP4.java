@@ -11,19 +11,20 @@ public class HistoireTP4 {
 //		prof.acheter("un kimono", 50);
 		
 		Commercant marco = new Commercant ("Marco", 20);
-//		marco.direBonjour();
-//		marco.seFaireExtorquer();
-//		marco.recevoir(15);
-//		marco.boire();
-//		Yakuza yaku = new Yakuza ("Yaku le noir", " whisky", 30,"Warsong");
-//		yaku.direBonjour();
-//		yaku.extorquer(marco);
+		marco.direBonjour();
+		marco.seFaireExtorquer();
+		marco.recevoir(15);
+		marco.boire();
+		Yakuza yaku = new Yakuza ("Yaku le noir", " whisky", 30,"Warsong");
+		yaku.direBonjour();
+		yaku.extorquer(marco);
 		Ronin roro=new Ronin ("Roro", "shochu",60);
 		
 		roro.direBonjour();
 		roro.donner(marco);
 		
-		
+		roro.parler("Je t'ai retrouvé vermine, tu va payer pour ce que tu as fait à ce pauvre marchand!");
+		roro.provoquer(yaku);
 		
 
 	}
